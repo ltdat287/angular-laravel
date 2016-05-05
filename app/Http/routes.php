@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::controller('/customers', 'CustomerController');
+
+Route::controller('/transactions', 'TransactionController');
